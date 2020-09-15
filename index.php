@@ -12,3 +12,11 @@ echo $testo;
 // visualizzo la lunghezza
 $lunghezzaTesto = strlen($testo);
 echo " Questo incipit è lungo $lunghezzaTesto caratteri.";
+
+//dichiaro badword a GET:
+$badword = $_GET[""];
+//la sostituisco con tre *:
+$sostituisci = str_replace($badword,'***');
+echo $sostituisci;
+
+?>
